@@ -1,0 +1,241 @@
+*{
+    font-family: montserrat;
+    border:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 100px;
+}
+
+.container{
+    width: 1110px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul,
+.menu li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.menu ul{
+    display:flex;
+}
+
+.menu li a{
+    color:white;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 14px;
+    display: flex;
+    height:100px;
+    align-items:center;
+    border-bottom: 4px solid #000000;
+}
+
+.menu li a:hover {
+    border-bottom: 4px solid #b78c59;
+}
+
+
+
+.logo{
+    width: 70px;
+    height: 70px;
+    background-color: lawngreen;
+    display:flex;
+    align-items: center;
+}
+
+/* seção 1 carrossel */
+
+.banner{
+    height: calc(100vh - 100px);
+    background-image: url(complementos/bg.jpg);
+    background-size: cover;
+    background-position:bottom;
+}
+.background{
+    background-color: rgba(0, 0, 0, 0.7);
+    height: calc(100vh - 100px);
+    display:flex;
+    justify-content: center; 
+    align-items: center;  
+}
+
+.container_banner{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner h1{
+    font-size:50px;
+    color:white;
+    text-align: center;
+}
+
+.banner h1 span{
+    color: #b98b59;
+}
+
+.banner h2{
+    text-align: center;
+    margin-top: 20px;
+    color:white;
+}
+
+.banner a{
+    text-decoration:none;
+    padding: 10px 30px 10 px 30px;
+    background-color: #b98b59;
+    font-weight: bold;
+    color:white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px ;
+    margin-top: 40px;
+}
+
+/* Seção Sobre Nós */
+
+.sobrenos{
+    height: 530px;
+    display:flex;
+    justify-content: center;
+}
+
+.sobrenos .container{
+    width: 1110px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobrenos .titulo{
+    display: flex;
+    height: 165px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobrenos h2{
+    font-size:23px;  
+}
+
+.sobrenos h3{
+    font-size:11px;  
+    margin-top: 20px;
+    color: #b8b8b8;
+}
+
+.sobrenos .componentes{
+    display:flex;
+    flex:1;
+}
+
+.texto-sobrenos{
+    width:60%;
+    margin-right:20px;  
+    display: flex;
+    flex-direction: column;
+    font-size: 11px;
+}
+
+.texto-sobrenos a{
+    text-decoration:none;
+    padding: 10px 30px 10 px 30px;
+    background-color: #b98b59;
+    font-weight: bold;
+    color:white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 20px ;
+
+}
+
+.botao{
+    margin-top: 30px;
+}
+
+/* seção service */
+
+.service{
+    height:415px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+.service .container{
+    width: 1110px;
+    display:flex; 
+    align-items: center;
+    flex-direction: column;
+}
+
+.service .titulo{
+    display: flex;
+    height: 165px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service h2{
+    font-size:23px;  
+    color: white;
+}
+
+.service h3{
+    font-size:11px;  
+    margin-top: 20px;
+    color: #b8b8b8;
+}
+
+.qualities{
+    display: flex;
+    flex:1;
+    width: auto;
+}
+
+.content{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding:30px;
+    border-left: 2px solid #6e6e6e;
+}
+
+.content img{
+    width:70px;
+    height:auto;
+}
+
+.content h2{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 14px;   
+    text-transform: uppercase;
+}
+
+.content p{
+    font-size:10px;
+    color:#6e6e6e;
+}
+
+
+
+
+
+
+
